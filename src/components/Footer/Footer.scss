@@ -1,0 +1,6 @@
+@import "../../containers/variables.scss";
+
+.Footer {
+    background: $color-secondary;
+    grid-column: full-start / full-end;
+}

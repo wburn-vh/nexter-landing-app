@@ -1,0 +1,6 @@
+@import "../../containers/variables.scss";
+
+.Realtors {
+    background: $color-secondary;
+    grid-column: col-start 7 / full-end;
+}

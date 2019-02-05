@@ -1,0 +1,6 @@
+@import "../../containers/variables.scss";
+
+.Homes {
+    background: $color-secondary;
+    grid-column: full-start / full-end;
+}
