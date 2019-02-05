@@ -3,8 +3,7 @@
 .Story {
     &__pictures {
         background-color: $color-primary;
-        // background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5));
-        background-image: url("./back.jpg");
+        // background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)); // doesn't work, error while compiling from scss
         grid-column: full-start / col-end 4;
 
         display: grid;

@@ -3,17 +3,18 @@ import React, { Fragment } from "react";
 import "./Story.scss";
 import storyPicOne from "../../img/story-1.jpeg";
 import storyPicTwo from "../../img/story-2.jpeg";
-// import back from "../../img/back.jpg";
+import back from "../../img/back.jpg";
 
 
 function Story() {
-    // let backgroundStyle = {
-    //   "background-image":
-    //     "linear-gradient(rgba($color-primary, 0.5), rgba(198, 153, 99, 0.5)), url(" + back + ")"
-    // };
+    let backgroundStyle = {
+      "background-image":
+        "linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(" + back + ")"
+    };
+
     return (
         <Fragment>
-            <div className="Story__pictures">
+            <div className="Story__pictures" style={backgroundStyle}>
                 <img src={storyPicOne} alt="Couple with new house" className="Story__img--1"/>
                 <img src={storyPicTwo} alt="New house" className="Story__img--2" />
             </div>

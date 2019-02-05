@@ -7,7 +7,7 @@ function Features() {
         <section className="Features">
             <div className="feature">
                 <svg className="feature__icon">
-                    <use xlinkHref="sprite.svg#icon-global"></use>
+                    <use xlinkHref="sprite.svg#icon-global" />
                 </svg>
                 <h4 className="heading-4 heading-4--dark">World's best luxury homes</h4>
                 <p className="feature__text">
@@ -18,7 +18,7 @@ function Features() {
 
             <div className="feature">
                 <svg className="feature__icon">
-                    <use xlinkHref="sprite.svg#icon-trophy"></use>
+                    <use xlinkHref="sprite.svg#icon-trophy" />
                 </svg>
                 <h4 className="heading-4 heading-4--dark">Only the best properties</h4>
                 <p className="feature__text">
@@ -29,7 +29,7 @@ function Features() {
 
             <div className="feature">
                 <svg className="feature__icon">
-                    <use xlinkHref="sprite.svg#icon-map-pin"></use>
+                    <use xlinkHref="sprite.svg#icon-map-pin" />
                 </svg>
                 <h4 className="heading-4 heading-4--dark">All homes in top locations</h4>
                 <p className="feature__text">
@@ -40,7 +40,7 @@ function Features() {
 
             <div className="feature">
                 <svg className="feature__icon">
-                    <use xlinkHref="sprite.svg#icon-key"></use>
+                    <use xlinkHref="sprite.svg#icon-key" />
                 </svg>
                 <h4 className="heading-4 heading-4--dark">New home in one week</h4>
                 <p className="feature__text">
@@ -51,7 +51,7 @@ function Features() {
 
             <div className="feature">
                 <svg className="feature__icon">
-                    <use xlinkHref="sprite.svg#icon-presentation"></use>
+                    <use xlinkHref="sprite.svg#icon-presentation" />
                 </svg>
                 <h4 className="heading-4 heading-4--dark">Top 1% realtors</h4>
                 <p className="feature__text">
@@ -62,7 +62,7 @@ function Features() {
 
             <div className="feature">
                 <svg className="feature__icon">
-                    <use xlinkHref="sprite.svg#icon-lock"></use>
+                    <use xlinkHref="sprite.svg#icon-lock" />
                 </svg>
                 <h4 className="heading-4 heading-4--dark">Secure payments on nexter</h4>
                 <p className="feature__text">
