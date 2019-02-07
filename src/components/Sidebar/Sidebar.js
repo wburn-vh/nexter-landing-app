@@ -5,7 +5,7 @@ import "./Sidebar.scss";
 function Sidebar() {
     return (
         <div className="Sidebar">
-            Sidebar
+            <button className="nav-btn"></button>
         </div>
     );
 }
